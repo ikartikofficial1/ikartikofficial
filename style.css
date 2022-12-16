@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700&display=swap');
+
+body
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+ 
+a
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: white;
+}
+
+hr{
+    width: 4%;
+    border: dotted #ffc107 6px;
+    border-bottom: none;
+    margin: 70px auto;
+}
+
+
+/* =============================== NAVBAR ================================ */
+
+.navbar
+{
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn, rgba(225,249,34), rgba(255,0,128), rgb(83, 5, 218));
+    border-image-slice: 1;
+}
+
+.nav-link
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: black;
+    transition: .3s;
+}
+
+.nav-link:hover
+{
+    letter-spacing: 2px;
+    color: #ffc107;
+    transition: .3s;
+}
+
+.contact-button
+{
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    background-color: #ffc107;
+    padding: 7px 20px;
+    transition: .3s;
+}
+
+.contact-button:hover
+{
+    transition: .3s;
+    background-color: orange;
+    color: white;
+}
+
+.contact-button a
+{
+    transition: .3s;
+    color: white;
+}
+
+.contact-button a:hover
+{
+    transition: .3s;
+    letter-spacing: 2px;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btnn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+.btn-hover.color-4 {
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+.btn-hover.color-6 {
+    background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #3488c0, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+.btn-hover.color-10 {
+        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.btn-hover.color-11 {
+       background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+.btn-hover.color-12 {
+    background-image: linear-gradient(to right, #f5010d, #da14e0, #e14ea4, #f15207);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+
+
+
+/* =============================== Our Courses Section ================================ */
+
+/* ============ CLOSE BUTTON - CSS & HOVER ============= */
+
+.course-close-button
+{
+    border-radius: 35px;
+    letter-spacing: 1px;
+    border: none;
+    width: 100px;
+    height: 60px;
+    background-color: grey;
+    color: white;
+    box-shadow: 2px 10px 25px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+
+.course-close-button:hover
+{
+    border-radius: 50px;
+    letter-spacing: 3px;
+    width: 140px;
+    /* background-color: black; */
+    box-shadow: 0px 5px 25px grey;
+    color: #fff;
+    transform: translateY(-7px);
+    transition: .3s;
+  }
+
+
+/* ============ COURSE - CONTACT US BUTTON - CSS & HOVER ============= */
+
+
+.course-contact-button
+{
+    border-radius: 35px;
+    letter-spacing: 1px;
+    border: none;
+    width: 120px;
+    height: 60px;
+    background-color: #ffc107;
+    color: white;
+    box-shadow: 2px 10px 25px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+
+.course-contact-button:hover
+{
+    border-radius: 50px;
+    width: 140px;
+    letter-spacing: 3px;
+    background-color: #ffc107;
+    box-shadow: 2px 10px 25px #ffc107;
+    color: #fff;
+    transform: translateY(-7px);
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+.form-label
+{
+    font-size: 18px;
+}
+
+
+.form-control
+{
+    padding: 16px;
+    border-radius: 0%;
+}
